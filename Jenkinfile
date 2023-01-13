@@ -1,0 +1,11 @@
+node{
+    if(params.shouldrun == true){
+        stage("1st question"){
+            echo"this is my 1st question"
+            
+        }
+    }
+    stage ("this is a trial"){
+        echo"this ismy trial"
+    }
+}
